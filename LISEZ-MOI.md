@@ -21,10 +21,10 @@ Changez les deux en même temps.
 ## Mettre en ligne (GitHub Pages, comme le portfolio)
 1. Créez un dépôt GitHub et déposez-y tout le contenu de ce dossier.
 2. Dans Settings > Pages, choisissez la branche principale.
-3. Pour un domaine personnalisé, ajoutez un fichier `CNAME` contenant le nom de domaine.
+3. Le fichier `CNAME` à la racine déclare le domaine personnalisé (servicesvincentes.com).
 
 ## À faire avant la mise en ligne
 - [ ] Remplacer le logo Amor Fati par celui de Vincentes quand il existera (`assets/img/jackalope.png` dans l'en-tête, `assets/img/logo-amorfati.webp` dans le pied de page).
-- [ ] Une fois le domaine choisi : dans le `<head>` de chaque page, remplacer `assets/img/og-vincentes.png` par l'adresse complète (https://…) et ajouter `<link rel="canonical">`.
+- [x] Domaine : servicesvincentes.com (acheté chez Network Solutions). Le fichier `CNAME` à la racine le déclare à GitHub Pages ; les adresses de partage et les `canonical` pointent dessus.
 - [ ] Vérifier les coordonnées (courriel et téléphone sont ceux d'Amor Fati pour l'instant).
 - [ ] Faire relire les deux pages légales (voir les points signalés par Claude dans la conversation).
